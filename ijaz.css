@@ -1,0 +1,644 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+.head
+{
+    padding:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headpara span
+{
+    font-size:60px;
+    font-weight: 800;
+}
+.bgimg
+{
+    position: fixed;
+    background-image: url("img/hotel.jpg");
+    height:100vh;
+    width:25%;
+    background-size: 140% 100%;
+}
+.container
+{
+    padding:20px 20px 10px 20px;
+    position: absolute;
+    margin-left:25%;
+    width:75%;
+    background-color:rgb(255, 221, 171);
+}
+#headpara
+{
+    letter-spacing: 3px;
+    padding-left: 10px;
+}
+.quote p
+{
+    letter-spacing: 1px;
+}
+#headimg
+{
+    height:70px;
+    width:70px;
+}
+.quote
+{
+    text-align: center;
+    font-weight: 700;
+}
+.mainsub
+{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.sub
+{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width:65%;
+}
+.Tea,.Coffee,.Chat
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img
+{
+    height:30px;
+    width:30px;
+}
+.para
+{
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.para1 p, .para p
+{
+    font-weight: 700;
+}
+a
+{
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+}
+.mainnav
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    position:sticky;
+    top: 5px;
+}
+.nav
+{
+    padding:5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+    justify-content:space-around;
+    background-color:rgb(76, 255, 255);
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+.ia-ijaz1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 10px;
+    transition: .6s;
+}
+.img1
+{
+    height:35px;
+    width:35px;
+}
+.para1
+{
+    letter-spacing: 3px;
+}
+.ia-ijaz1:hover{
+    background-color:rgb(135, 47, 216);
+    cursor: pointer;
+    border-radius: 20px 0;
+}
+.flex-box
+{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    justify-content: center;
+    box-shadow: 0px 0px 10px black;
+}
+.flex
+{
+    text-align: center;
+    height: 200px;
+    width:50%;
+    flex:1;
+    transition: .7s;
+    border-right: 2px solid black;
+}
+#threepic,#sixpic,#ninepic
+{
+    border-right: none;
+}
+.flex:hover
+{
+    flex-grow:2;
+}
+.list
+{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
+    transition:.7s;
+    opacity:0;
+}
+.flex h3
+{
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    color: rgb(20, 255, 212);
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#onepic
+{
+    background-image: url("img/burger2.jpg");
+    width:100%;
+    background-size:150% 150%;
+
+}
+.list p
+{
+    height:40px;
+    font-weight: 700;
+    font-size: large;
+    padding-top:20px;
+
+}
+.list:hover
+{
+    opacity:1;
+    color:aqua;
+    background-color: rgba(0, 0, 0, 0.539);
+}
+#twopic
+{
+    background-image: url("img/Pizza.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+#threepic
+{
+    background-image: url("img/sandwich.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+#fourpic
+{
+    background-image: url("img/dessert.jpg");
+    width:100%;
+    background-size:150% 150%;
+}
+#fivepic
+{
+    background-image: url("img/fried.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+#sixpic
+{
+    background-image: url("img/mojito.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+#sevenpic
+{
+    background-image: url("img/panipuri.jpg");
+    width:100%;
+    background-size:150% 150%;
+}
+#eightpic
+{
+    background-image: url("img/pasta.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+#ninepic
+{
+    background-image: url("img/noodles.jpg");
+    width:100%;
+    background-size:100% 100%;
+}
+.about p
+{
+    text-align: justify;
+}
+.about h1
+{
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+#about1
+{
+    margin:10px 0 10px 10px;
+    height: 200px;
+    width:150px;
+    float: right;
+}
+#about2
+{
+    margin:10px 10px 5px 0;
+    height: 205px;
+    width:150px;
+    float: left;
+}
+#aboutpara
+{
+    margin: 10px 0;
+}
+.sub11
+{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    text-align: center;
+}
+.wwimg
+{
+    display: flex;
+    height:50px;
+    width:50px;
+}
+.worldwide1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    transition: .6s;
+}
+.contact
+{
+    margin-top: 5px;
+}
+.para2
+{
+    font-weight: 600;
+}
+.thick
+{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.policy
+{
+    display: flex;
+    padding:10px 0;
+}
+table
+{
+    display:inline-block;
+    width:750px;
+    /* text-align: center; */
+    border-right:1.5px solid black;
+    margin-top: 10px;
+}
+tr,td
+{
+    padding:10px;
+}
+.complaint
+{
+    /* background-color: chartreuse; */
+    width:450px;
+    padding: 0 10px;
+    padding-left: 25px;
+}
+.complaint p
+{
+    margin-top: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding:10px 10px 10px 0px;
+}
+input
+{
+    padding: 8px;
+    margin: 5px 0;
+    width:100%;
+    outline: none;
+    border: none;
+    background-color: rgba(29, 29, 29, 0.701);
+    border-radius: 20px;
+    color: rgb(123, 255, 255);
+    transition: .7s;
+    height:36px;
+}
+::placeholder
+{
+    letter-spacing: 2px;
+    color: antiquewhite;
+}
+button
+{
+    background-color: rgba(255, 0, 0, 0.701);
+    border-radius: 20px;
+    margin-top:5px;
+    padding:7px;
+    width:100%;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    transition: .7s;
+}
+input:hover
+{
+    border:1.5px solid rgb(89, 255, 0);
+}
+button:hover
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgb(255, 0, 0);
+}
+#foot
+{
+    display:flex;
+    background-color: black;
+    width:100%;
+    justify-content: space-around;
+    color:beige;
+    padding:10px;
+}
+.logos
+{
+    display: flex;
+    width:30%;
+    justify-content: space-around;
+}
+.right
+{
+    display:flex;
+    align-items: center;
+}
+.galleryouter h1
+{
+    padding: 10px 0;
+}
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:7px;
+    grid-template-areas:
+    "one one one seven two two"
+    "one one one seven two two"
+    "eight three three three two two"
+    "eight three three three two two"
+    "four four five five five nine"
+    "four four five five five nine"
+    "four four ten six six six"
+    "four four ten six six six";
+}
+#grid-1
+{
+    width:100%;
+    height:200px;
+    grid-area: one;
+    border: 1.5px solid black;
+    background-image: url("img/ding3.jpg");
+    background-size: 100% 100%;
+}
+#grid-2
+{
+    grid-area: two;
+    border: 1.5px solid black;
+    background-image: url("img/ding1.jpg");
+    background-size: 100% 100%;
+}
+#grid-3
+{
+    grid-area: three;
+    border: 1.5px solid black;
+    background-image: url("img/ding4.jpg");
+    background-size: 100% 100%;
+}
+#grid-4
+{
+    grid-area: four;
+    border: 1.5px solid black;
+    background-image: url("img/ding2.jpg");
+    background-size: 100% 100%;
+}
+#grid-5
+{
+    grid-area: five;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding5.jpg");
+    background-size: 100% 100%;
+}
+#grid-6
+{
+    grid-area: six;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding6.jpg");
+    background-size: 100% 100%;
+}
+#grid-7
+{
+    grid-area: seven;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding7.jpg");
+    background-size: 100% 100%;
+}
+#grid-8
+{
+    grid-area:eight;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding8.jpg");
+    background-size: 100% 100%;
+}
+#grid-9
+{
+    grid-area: nine;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding9.jpg");
+    background-size: 100% 100%;
+}
+#grid-10
+{
+    grid-area: ten;
+    height:200px;
+    border: 1.5px solid black;
+    background-image: url("img/ding10.jpg");
+    background-size: 100% 100%;
+}
+.gridy
+{
+    transition: .8s;
+}
+.gridy:hover
+{
+    transform: scale(1.1);
+}
+.sidebar
+{
+
+    position: fixed;
+    display:flex;
+    margin:5px 0;
+    left:-60%;
+}
+.sidebar1
+{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    width:100%;
+    margin-left:20px;
+    box-shadow: 1px 1px 10px rgb(0, 42, 255);
+    border-radius: 15px;
+    background-color:aquamarine;
+}
+.sb1
+{
+    display:flex;
+    background-color: aqua;
+    padding-left:5px;
+    justify-content:flex-start;
+    border-left: 7px solid rgb(255, 0, 43);
+    border-top-right-radius:25px;
+    box-shadow: 1px 1px 10px rgb(0, 42, 255);
+    border-bottom-right-radius: 25px;
+    align-items: center;
+    transition: .9s;
+    gap: 10px;
+    margin: 10px;
+}
+.sb1:hover
+{
+    transform: scale(1.08);
+}
+@media screen and (max-width:1100px)
+{
+    .bgimg
+    {
+        left:-60%;
+    }
+    .container
+    {
+        margin-left:0%;
+        width:100%;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .sub
+    {
+        width:40%;
+    }
+}
+@media screen and (max-width:690px)
+{
+    .sub
+    {
+        width:50%;
+    }
+    #threepic,#sixpic,#ninepic
+    {
+        border-right:1.5px solid black;
+    }
+    .flex-box
+    {
+        flex-direction: column;
+        row-gap: 10px;
+        border: none;
+        box-shadow: none;
+    }
+    .flex
+    {
+        border: 1.5px solid black;
+        box-shadow: 1px 1px 15px black;
+        border-radius: 10px;
+    }
+    #pimbi,#line,.galleryouter,#line2
+    {
+        display: none;
+    }
+    .flex:hover
+    {
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width:550px)
+{
+    .sub
+    {
+        width:75%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .sub
+    {
+        width:65%;
+    }
+    #pay,.mainnav
+    {
+        display: none;
+    }
+    #headpara h1
+    {
+        font-size:40px;
+    }
+    .logo1
+    {
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        top:150px;
+        justify-content: center;
+        align-items: center;
+        height:50px;
+        width: 50px;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 1px 1px 10px black;
+        border-radius: 50%;
+    }
+    .logo1 .lens
+    {
+        width: 70%;
+        border:3px solid rgb(0, 247, 255);
+        margin-bottom: 3px;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 5px;
+        background-color: rgb(0, 255, 225);
+    }
+}
